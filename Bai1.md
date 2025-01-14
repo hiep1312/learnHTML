@@ -162,7 +162,7 @@ Ví dụ: Bạn có thể tưởng tượng HTML như cấu trúc xương của 
 - Thẻ `<em>`: Dùng để in nghiêng văn bản và chỉ ra rằng đây là văn bản có trọng âm hoặc nghĩa đặc biệt. Khác với thẻ `<i>` là chỉ in nghiêng văn bản mà không nói lên về mức độ quan trọng của nó.
     - VD: `<em>Đây là văn bản in nghiêng và quan trọng</em>` -> <em>Đây là văn bản in nghiêng và quan trọng</em>.
 - Thẻ `<u>`: Dùng để gạch chân văn bản.
-    - VD: `<u>Đây là văn bản gạch chân</u>` -> <u>Đây là văn bản gạch chân</u>.
+    - VD: `<u>Đây là văn bản gạch chân</u>` -> <ins>Đây là văn bản gạch chân</ins>.
 - Thẻ `<ins>`: Dùng để gạch chân văn bản và chỉ ra rằng văn bản này là được thêm vào tài liệu. Khác với thẻ `<u>` là chỉ gạch chân văn bản mà không nói lên về việc văn bản này được thêm vào tài liệu.
     - VD: `<ins>Đây là văn bản gạch chân và đã được thêm vào tài liệu</ins>` -> <ins>Đây là văn bản gạch chân và đã được thêm vào tài liệu</ins>.
 - Thẻ `<mark>`: Dùng để làm nổi bật(đánh dấu) văn bản.
@@ -219,7 +219,7 @@ Ví dụ: Bạn có thể tưởng tượng HTML như cấu trúc xương của 
 
 
 
-### Thông kết các thẻ:
+### Tổng kết các thẻ:
 - `<!DOCTYPE html>`: Thẻ khai báo phiên bản HTML mà trang web sử dụng.
 - `<html>`: Thẻ bao quanh toàn bộ nội dung của trang web.
 - `<head>`: Thẻ chứa các thông tin mô tả về trang web.
