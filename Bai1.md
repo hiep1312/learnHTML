@@ -51,7 +51,6 @@ Ví dụ: Bạn có thể tưởng tượng HTML như cấu trúc xương của 
                 ![alt text](image-5.png)
         - `<p>`: Đoạn văn.
         ![alt text](image-6.png)
-
 ### Đường dẫn tương đối và đuờng dẫn tuyệt đối:
 - Đường dẫn tuyệt đối là đường dẫn đầy đủ từ file hiện tại đến file cần truy cập. 
     - VD: `C:\Users\PC\Desktop\file.html`, `https://www.google.com/file.html`.
