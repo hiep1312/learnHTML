@@ -75,14 +75,14 @@ Ví dụ: Bạn có thể tưởng tượng HTML như cấu trúc xương của 
     - Trong thư mục Website1, giả sử chúng ta đang ở file `SanPham.html` và chúng ta muốn truy cập đến file `MuaHang.html`.
         - Do trong cùng một thư mục nên ta có thể sử dụng đường dẫn tương đối để trỏ đến file đó như sau: 
             - `MuaHang.html` hoặc `./MuaHang.html`.
-        - Nếu ở đây chúng ta sử dụng đường dẫn tuyệt đối thì sẽ rất dòng như thế này:
+        - Nếu ở đây chúng ta sử dụng đường dẫn tuyệt đối thì sẽ rất dài dòng như thế này:
             - `/project/Website1/MuaHang.html`.
     - Thế giả sử ta lại không muốn trỏ đến file `MuaHang.html` mà muốn trỏ đến file `index.html` trong thư mục `project` ngoài cùng thì làm sao?
         - Để làm được điều đấy ta phải thoát ra khỏi thư mục hiện tại, sau đó mới trỏ đến file cần truy cập.
         - Ta có cú pháp như sau: `../index.html`.
             - Trong đó `../` dùng để thoát ra khỏi thư mục hiện tại.
     - Thế lại giả sử ta lại không muốn trỏ đến file `index.html` mà muốn trỏ đến file `TaiLieu.html` trong thư mục `Website3` thì làm sao?
-        - Ta cũng sẽ sử dụng cú pháp như sau: `../Website3/TaiLieu.html`.
+        - Ta cũng sẽ sử dụng cú pháp như thế: `../Website3/TaiLieu.html`.
         - Nhưng khác một điều là thay trỏ đến file `index.html` mà ta truy cập vào thư mục `Website3` nơi chứa file `TaiLieu.html`.
 
 ### Thẻ HTML Link và Image:
@@ -99,7 +99,7 @@ Ví dụ: Bạn có thể tưởng tượng HTML như cấu trúc xương của 
             - `hreflang="mã_ngôn_ngữ"`: Mã ngôn ngữ của trang web hoặc tài nguyên được liên kết. **Cấu trúc của Mã ngôn ngữ: ngôn_ngữ-quốc_gia**. VD: `en-US`(Mỹ), `vi-VN`(Việt Nam), `zh-CN`(Trung Quốc), `ko-KR`(Hàn Quốc), ...
         - `title`: Dùng để hiển thị một chú thích khi di chuột vào liên kết.
         - `href`: Dùng để xác định đường dẫn đến trang web hoặc tài nguyên khác. Có thể là **đường dẫn tương đối hoặc đường dẫn tuyệt đối**.
-        - Thuộc tính `href` không chỉ sử dụng đến điều hướng để đến một trang web mà còn có thể sử dụng để điều hướng đến **một phần tử trong cùng một trang web, gửi email, gọi số điện thoại, gửi tin nhắn SMS,...**
+        - Thuộc tính `href` không chỉ sử dụng để điều hướng đến một trang web mà còn có thể sử dụng để điều hướng đến **một phần tử trong cùng một trang web, gửi email, gọi số điện thoại, gửi tin nhắn SMS,...**
             ```html
             <a href="#id">Điều hướng đến phần tử có id là id</a>
 
