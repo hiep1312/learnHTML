@@ -4,8 +4,7 @@
 - CSS là viết tắt của cụm từ **Cascading Style Sheets**, là ngôn ngữ định dạng.
 
 Ví dụ: Bạn có thể tưởng tượng HTML như cấu trúc xương của một con người, còn CSS là màu da và quần áo của con người bên ngoài.
-
-![alt text](image.png)
+<br>![alt text](image.png)
 
 - HTML được sử dụng để tạo ra cấu trúc của một trang web, còn CSS được sử dụng để tạo ra giao diện của trang web.
 
@@ -24,9 +23,9 @@ Ví dụ: Bạn có thể tưởng tượng HTML như cấu trúc xương của 
 - Thẻ `<html>` bao quanh toàn bộ nội dung của trang web. Bên trong thẻ này sẽ chứa 2 thẻ con là `<head>` và `<body>`.
     - Thẻ `<head>` chứa các thông tin mô tả về trang web, các thẻ `<meta>`, `<title>`, `<link>`, `<style>`, `<script>`.
     - Thẻ `<body>` chứa nội dung hiển thị trên trang web.
-![alt text](image-1.png)
+<br>![alt text](image-1.png)
 - Cấu trúc cơ bản của một file HTML:
-![alt text](image-2.png)
+<br>![alt text](image-2.png)
     ```html
     <!DOCTYPE html>
     <html>
@@ -41,16 +40,16 @@ Ví dụ: Bạn có thể tưởng tượng HTML như cấu trúc xương của 
     ```
     - Trong đó: 
         - `<title>`: Tiêu đề của trang web, hiển thị ở phần tab của trình duyệt.
-        ![alt text](image-3.png)
+        <br>![alt text](image-3.png)
         - `<h1>` -> `<h6>`: Tiêu đề của nội dung trang.
-        ![alt text](image-4.png)
+        <br>![alt text](image-4.png)
             - Trong đó: 
                 - `<h1>`: Tiêu đề lớn nhất. Chỉ nên sử dụng một thẻ `<h1>` trong một trang web.
                 - `<h?>`: Tiêu đề từ lớn đến nhỏ dần, với `?` là số từ 1 đến 6.
                 - `<h6>`: Tiêu đề nhỏ nhất.
-                ![alt text](image-5.png)
+                <br>![alt text](image-5.png)
         - `<p>`: Đoạn văn.
-        ![alt text](image-6.png)
+        <br>![alt text](image-6.png)
 ### Đường dẫn tương đối và đuờng dẫn tuyệt đối:
 - Đường dẫn tuyệt đối là đường dẫn đầy đủ từ file hiện tại đến file cần truy cập. 
     - VD: `C:\Users\PC\Desktop\file.html`, `https://www.google.com/file.html`.
@@ -75,14 +74,14 @@ Ví dụ: Bạn có thể tưởng tượng HTML như cấu trúc xương của 
     - Trong thư mục Website1, giả sử chúng ta đang ở file `SanPham.html` và chúng ta muốn truy cập đến file `MuaHang.html`.
         - Do trong cùng một thư mục nên ta có thể sử dụng đường dẫn tương đối để trỏ đến file đó như sau: 
             - `MuaHang.html` hoặc `./MuaHang.html`.
-        - Nếu ở đây chúng ta sử dụng đường dẫn tuyệt đối thì sẽ rất dòng như thế này:
+        - Nếu ở đây chúng ta sử dụng đường dẫn tuyệt đối thì sẽ rất dài dòng như thế này:
             - `/project/Website1/MuaHang.html`.
     - Thế giả sử ta lại không muốn trỏ đến file `MuaHang.html` mà muốn trỏ đến file `index.html` trong thư mục `project` ngoài cùng thì làm sao?
         - Để làm được điều đấy ta phải thoát ra khỏi thư mục hiện tại, sau đó mới trỏ đến file cần truy cập.
         - Ta có cú pháp như sau: `../index.html`.
             - Trong đó `../` dùng để thoát ra khỏi thư mục hiện tại.
     - Thế lại giả sử ta lại không muốn trỏ đến file `index.html` mà muốn trỏ đến file `TaiLieu.html` trong thư mục `Website3` thì làm sao?
-        - Ta cũng sẽ sử dụng cú pháp như sau: `../Website3/TaiLieu.html`.
+        - Ta cũng sẽ sử dụng cú pháp như thế: `../Website3/TaiLieu.html`.
         - Nhưng khác một điều là thay trỏ đến file `index.html` mà ta truy cập vào thư mục `Website3` nơi chứa file `TaiLieu.html`.
 
 ### Thẻ HTML Link và Image:
@@ -99,7 +98,7 @@ Ví dụ: Bạn có thể tưởng tượng HTML như cấu trúc xương của 
             - `hreflang="mã_ngôn_ngữ"`: Mã ngôn ngữ của trang web hoặc tài nguyên được liên kết. **Cấu trúc của Mã ngôn ngữ: ngôn_ngữ-quốc_gia**. VD: `en-US`(Mỹ), `vi-VN`(Việt Nam), `zh-CN`(Trung Quốc), `ko-KR`(Hàn Quốc), ...
         - `title`: Dùng để hiển thị một chú thích khi di chuột vào liên kết.
         - `href`: Dùng để xác định đường dẫn đến trang web hoặc tài nguyên khác. Có thể là **đường dẫn tương đối hoặc đường dẫn tuyệt đối**.
-        - Thuộc tính `href` không chỉ sử dụng đến điều hướng để đến một trang web mà còn có thể sử dụng để điều hướng đến **một phần tử trong cùng một trang web, gửi email, gọi số điện thoại, gửi tin nhắn SMS,...**
+        - Thuộc tính `href` không chỉ sử dụng để điều hướng đến một trang web mà còn có thể sử dụng để điều hướng đến **một phần tử trong cùng một trang web, gửi email, gọi số điện thoại, gửi tin nhắn SMS,...**
             ```html
             <a href="#id">Điều hướng đến phần tử có id là id</a>
 
@@ -133,7 +132,7 @@ Ví dụ: Bạn có thể tưởng tượng HTML như cấu trúc xương của 
         - `src`: Đường dẫn đến hình ảnh. Có thể là **đường dẫn tương đối hoặc đường dẫn tuyệt đối**.
         - `alt`: Mô tả hình ảnh. **Thuộc tính này rất quan trọng vì nó sẽ được hiển thị khi hình ảnh không thể hiển thị trong một số trường hợp(như ảnh sai đường dẫn, file ảnh không được hỗ trợ).**
             - `alt="mô_tả"`: Mô tả của hình ảnh.
-            ![alt text](image-7.png)
+            <br>![alt text](image-7.png)
         - `loading`: Dùng để xác định thuật toán tải hình ảnh cho trình duyệt.
             - `loading="lazy"`: Hình ảnh sẽ được tải ngay khi nó nằm trong vùng nhìn thấy của thiết bị người dùng(như **điện thoại, máy tính**).
             - `loading="eager"`: Hình ảnh sẽ được tải ngay lập tức(Giá trị mặc định). **Không khuyến khích sử dụng giá trị này!**.
@@ -162,7 +161,7 @@ Ví dụ: Bạn có thể tưởng tượng HTML như cấu trúc xương của 
 - Thẻ `<em>`: Dùng để in nghiêng văn bản và chỉ ra rằng đây là văn bản có trọng âm hoặc nghĩa đặc biệt. Khác với thẻ `<i>` là chỉ in nghiêng văn bản mà không nói lên về mức độ quan trọng của nó.
     - VD: `<em>Đây là văn bản in nghiêng và quan trọng</em>` -> <em>Đây là văn bản in nghiêng và quan trọng</em>.
 - Thẻ `<u>`: Dùng để gạch chân văn bản.
-    - VD: `<u>Đây là văn bản gạch chân</u>` -> <u>Đây là văn bản gạch chân</u>.
+    - VD: `<u>Đây là văn bản gạch chân</u>` -> <ins>Đây là văn bản gạch chân</ins>.
 - Thẻ `<ins>`: Dùng để gạch chân văn bản và chỉ ra rằng văn bản này là được thêm vào tài liệu. Khác với thẻ `<u>` là chỉ gạch chân văn bản mà không nói lên về việc văn bản này được thêm vào tài liệu.
     - VD: `<ins>Đây là văn bản gạch chân và đã được thêm vào tài liệu</ins>` -> <ins>Đây là văn bản gạch chân và đã được thêm vào tài liệu</ins>.
 - Thẻ `<mark>`: Dùng để làm nổi bật(đánh dấu) văn bản.
@@ -219,7 +218,7 @@ Ví dụ: Bạn có thể tưởng tượng HTML như cấu trúc xương của 
 
 
 
-### Thông kết các thẻ:
+### Tổng kết các thẻ:
 - `<!DOCTYPE html>`: Thẻ khai báo phiên bản HTML mà trang web sử dụng.
 - `<html>`: Thẻ bao quanh toàn bộ nội dung của trang web.
 - `<head>`: Thẻ chứa các thông tin mô tả về trang web.
